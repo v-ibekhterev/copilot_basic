@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Helicopter Landing Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="game-container">
+        <h1>Helicopter Landing Challenge</h1>
+        <div class="game-info">
+            <div>Fuel: <span id="fuel">100</span>%</div>
+            <div>Weather: <span id="weather">Clear</span></div>
+            <div>Score: <span id="score">0</span></div>
+        </div>
+        <canvas id="gameCanvas" width="800" height="600"></canvas>
+        <div class="controls">
+            <p>Controls: Use ARROW KEYS to fly the helicopter. Land safely on the mountains!</p>
+            <button id="startBtn">Start Game</button>
+            <button id="resetBtn">Reset</button>
+        </div>
+        <div class="weather-effects" id="weatherEffects"></div>
+    </div>
+    <script src="game.js"></script>
+</body>
+</html>
