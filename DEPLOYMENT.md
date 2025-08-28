@@ -16,6 +16,8 @@ Ensure all the following files are copied to maintain full functionality:
 ### Documentation Files (Recommended)
 - `README.md` - Comprehensive game documentation
 - `DEPLOYMENT.md` - This deployment guide
+- `FILE-LIST.md` - Complete file inventory and checksums
+- `verify-files.sh` - Automated verification script (optional)
 
 ## Copy Process
 
@@ -39,6 +41,8 @@ cp ../copilot_basic/game.js .
 cp ../copilot_basic/style.css .
 cp ../copilot_basic/README.md .
 cp ../copilot_basic/DEPLOYMENT.md .
+cp ../copilot_basic/FILE-LIST.md .
+cp ../copilot_basic/verify-files.sh .
 
 # Add and commit
 git add .
@@ -50,12 +54,13 @@ git push origin main
 
 After copying, verify the game works correctly:
 
-1. Open `index.html` in a web browser
-2. Click "Start Game" button
-3. Test helicopter controls with arrow keys
-4. Verify game canvas displays properly
-5. Check that weather effects appear
-6. Test landing mechanics
+1. Run the verification script: `./verify-files.sh`
+2. Open `index.html` in a web browser
+3. Click "Start Game" button
+4. Test helicopter controls with arrow keys
+5. Verify game canvas displays properly
+6. Check that weather effects appear
+7. Test landing mechanics
 
 ## Directory Structure After Copy
 
@@ -65,7 +70,9 @@ copilot_agile/
 ├── game.js             # Game logic
 ├── style.css           # Styling
 ├── README.md           # Documentation
-└── DEPLOYMENT.md       # This guide
+├── DEPLOYMENT.md       # This guide
+├── FILE-LIST.md        # File inventory
+└── verify-files.sh     # Verification script
 ```
 
 ## Hosting Options
