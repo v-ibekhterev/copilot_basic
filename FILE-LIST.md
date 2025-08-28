@@ -1,8 +1,8 @@
 # Complete File Listing for Repository Copy
 
 ## Summary
-Total files to copy: 6 files
-Total size: ~19.3KB
+Total files to copy: 8 files
+Total size: ~26.0KB
 
 ## Required Game Files
 
@@ -32,17 +32,29 @@ Total size: ~19.3KB
 - Game mechanics explanation
 - Browser compatibility information
 
-### DEPLOYMENT.md (2.9KB)
+### DEPLOYMENT.md (3.2KB)
 - Step-by-step copy instructions
 - Verification procedures
 - Troubleshooting guide
 - Hosting recommendations
+
+### FILE-LIST.md (2.0KB)
+- Complete file inventory and checksums
+- Lists all files with sizes and descriptions
+- Includes dependency information
+- Copy checklist for verification
 
 ### verify-files.sh (2.5KB)
 - Automated file verification script
 - Checks file presence and integrity
 - Provides testing instructions
 - Cross-platform compatible (bash)
+
+### COPY-TO-AGILE.md (3.8KB)
+- Specific instructions for copilot_agile repository
+- Complete copy process with git commands
+- Verification checklist and troubleshooting
+- Work item AB#11 reference documentation
 
 ## File Dependencies
 
@@ -71,7 +83,9 @@ md5sum *.html *.js *.css *.md *.sh > file-checksums.md5
 - [ ] style.css
 - [ ] README.md
 - [ ] DEPLOYMENT.md
+- [ ] FILE-LIST.md
 - [ ] verify-files.sh (optional)
+- [ ] COPY-TO-AGILE.md (specific instructions)
 
 ## Post-Copy Verification
 
